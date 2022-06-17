@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução Prática ao TypeScripting</title>
+    <style>
+        * {
+            font-family: sans-serif
+        }
+        .cor-borda{
+            border-color: blue;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Santander Bootcamp Fullstack Developer - DIO</h1>
+    </header>
+
+    <div id="desafio-1">
+        <h2>Desafio 1</h2>
+        <button id="botao1">Botao 1</button>
+
+
+    </div>
+
+
+    <hr>
+    <div id="desafio-2">
+        <h2>Desafio 2</h2>
+        <button id="botao2">Botao 2</button>
+
+    </div>
+
+
+    <hr>
+    <div id="desafio-3">
+        <h2>Desafio 3</h2>
+
+        <h4>Valor a ser adicionado: <input id="soma"> </h4>
+
+        <button id="atualizar-saldo">Atualizar saldo</button>
+        <button id="limpar-saldo">Limpar seu saldo</button>
+        <h1>"Seu saldo é: " <span id="campo-saldo"></span></h1>
+
+    </div>
+
+
+    <hr>
+    <div id="desafio-4">
+        <h2>Desafio 4</h2>
+
+        <div style="display: flex;">
+            <div style="display: flex; width: 300px; height: 100px; justify-content: space-between; flex-direction: column;">
+                <input id="login" placeholder="Login" onchange="preencherLogin(event)">
+                <input id="senha" placeholder="Senha" type="password" onchange="preencherSenha(event)">
+                <input id="api-key" placeholder="Api Key" onchange="preencherApi(event)">
+                <button id="login-button" disabled>Login</button>
+            </div>
+            <div id="search-container" style="margin-left: 20px">
+                <input id="search" placeholder="Escreva..." onchange="mudarBordaSerchInput(event)">
+                <button id="search-button">Pesquisar Filme</button>
+                <button id="clear-search-button">Apagar Pesquisa</button>
+            </div>
+          </div>
+
+    </div>
+
+
+    <script src="./desafio-1.js" defer></script>
+    <script src="./desafio-2.js" defer></script>
+    <script src="./desafio-3.js" defer></script>
+    <script src="./desafio-4.js" defer></script>
+</body>
+
+</html>
