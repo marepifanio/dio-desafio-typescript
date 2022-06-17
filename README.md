@@ -41,4 +41,5 @@ Mas o tópico principal continuava sendo a questão de tipificagem de variáveis
 Então, da mesma forma que no desafio 3 (porém com muito mais complexidade) foi necessário corrigir os tipos das variáveis e também acrescentar algumas linhas de código para que a aplicação fizesse seu trabalha (que é muito útil para quem adora cinema, diga-se de passagem XD ).
 
 <hr>
+
 ## Dessa forma é bastante visível a importância do uso de TypeScript no desenvolvimento de aplicações web que tratam de objetos complexos e que fazem muita manipulação desse objetos e seus atributos.
